@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@mysten/deepbook": "^0.4.2"
+  }
+}

@@ -1,0 +1,25 @@
+---
+compiled_package_info:
+  package_name: test_coins_dee9
+  address_alias_instantiation:
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+    test_coins_dee9: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 3BFD4ECE15C1B7FA3CEA53A15C9F6050E766F8F62E3587809138FC6C738A694D
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    additional_named_addresses: {}
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+dependencies:
+  - MoveStdlib
+  - Sui
