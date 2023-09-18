@@ -77,11 +77,11 @@ const gold_coin_id = '0x6f91c237611244d82040e282adb16b1c0f4ae0780ebd985338bc9dac
 
 // console.log(fish_deposit);
 // Deposit quote asset into this pool
-// const limit_order_txn_ask = await deepbook_client.placeLimitOrder(fish_pool_id, 2n* DEFAULT_TICK_SIZE, 1n, "ask")
-// const limit_order_ask = await executeTransactionBlock(rawSigner, limit_order_txn_ask);
+const limit_order_txn_ask = await deepbook_client.placeLimitOrder(fish_pool_id, 2n* DEFAULT_TICK_SIZE, 1n, "ask")
+const limit_order_ask = await executeTransactionBlock(rawSigner, limit_order_txn_ask);
 
-// const limit_order_txn_bid = await deepbook_client.placeLimitOrder(fish_pool_id, 1n* DEFAULT_TICK_SIZE, 1n, "bid")
-// const limit_order_bid = await executeTransactionBlock(rawSigner, limit_order_txn_bid);
+const limit_order_txn_bid = await deepbook_client.placeLimitOrder(fish_pool_id, 1n* DEFAULT_TICK_SIZE, 1n, "bid")
+const limit_order_bid = await executeTransactionBlock(rawSigner, limit_order_txn_bid);
 
 // console.log(limit_order_ask);
 // console.log(limit_order_bid);
