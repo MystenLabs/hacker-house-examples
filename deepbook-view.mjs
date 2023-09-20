@@ -1,21 +1,20 @@
 // Minimal example showing inconsistent behavior for the get_level2_book_status_ask_side call.
-import { TransactionBlock, Connection, JsonRpcProvider } from "@mysten/sui.js";
-
 import { BcsReader } from "@mysten/bcs";
+import {JsonRpcProvider, TransactionBlock, Connection} from "@mysten/sui.js";
 
-import { inspect } from "util";
+// import { inspect } from "util";
 
 const DEEPBOOK_PACKAGE_ID = "0xdee9";
 const DEEPBOOK_MODULE_CLOB = "clob_v2";
 
 // Pretty print an object and show everything in it (i.e. infinite depth).
-export function dump(object) {
-  return inspect(object, {
-    showHidden: false,
-    depth: null,
-    colors: true,
-  });
-}
+// export function dump(object) {
+//   return inspect(object, {
+//     showHidden: false,
+//     depth: null,
+//     colors: true,
+//   });
+// }
 
 function bcsDecodeVectorU64(bytes) {
   let reader = new BcsReader(new Uint8Array(bytes));

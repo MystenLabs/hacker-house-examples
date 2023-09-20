@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "@mysten/deepbook": "^0.4.2"
-  }
+    "@mysten/bcs": "^0.7.4",
+    "@mysten/deepbook": "^0.4.2",
+    "@mysten/sui.js": "^0.41.2"
+  },
+  "name": "hacker-house-examples"
 }
