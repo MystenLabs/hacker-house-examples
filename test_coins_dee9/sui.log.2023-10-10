@@ -1,0 +1,4 @@
+2023-10-10T20:03:33.456497Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.4.0, server api version : 1.12.0
+2023-10-10T20:03:33.457901Z  INFO sui::client_commands:                              Object ID                              |  Gas Value 
+2023-10-10T20:03:33.457912Z  INFO sui::client_commands: ----------------------------------------------------------------------------------
+2023-10-10T20:04:01.701173Z  INFO sui::client_commands: Active address switched to 0x255592ec5a35592aadf16f50aa9867ea92a5ea2866492d3fc6dd767596417dae

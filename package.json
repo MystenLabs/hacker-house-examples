@@ -2,7 +2,10 @@
   "dependencies": {
     "@mysten/bcs": "^0.7.4",
     "@mysten/deepbook": "^0.4.2",
-    "@mysten/sui.js": "^0.41.2"
+    "@mysten/sui.js": "^0.43.2"
   },
-  "name": "hacker-house-examples"
+  "name": "hacker-house-examples",
+  "exports": {
+    "./dist/cjs/client": "./dist/cjs/client"
+  }
 }
